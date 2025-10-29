@@ -1,1 +1,31 @@
-# docs
+## What is this about
+
+
+This is MVP of site generator from markdown files to easily build internal or public docs portal from single git monorepo or from multiple micro (and nano 😎) repos.
+
+No account is needed to test it, just send [HTTP POST](/Quick%20start.md) to get site like this.
+
+
+
+## Features
+
+Features which are already implemented:
+- [Build and index sites from public and private repos](/Quick%20start.md)
+- [Rebuild after commit to repo](/Updates.md)
+- [Mulisites with top menu structure](/Multisites%20with%20top%20menu.md)
+- [Diagrams conversions from plantuml and drawio](/Diagrams%20conversion.md)
+- [Setting files order](/Ordering.md)
+
+
+
+Features coming next:
+- Management app - account creation, sites management
+- Private sites with sharing to teammates 
+- Frontend customization with provided CSS and HTML template files
+- Handling commit events from github, gitlab
+- More diagraming and charting tools
+
+
+## Feedback
+
+Please send feedback to tech team at **support@brodocs.io** or create feature request in [github intake backlog](https://github.com/brodocsdev/intake/issues) repository.

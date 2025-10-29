@@ -1,0 +1,52 @@
+@startuml
+
+skinparam backgroundColor transparent
+skinparam monochrome false
+skinparam shadowing true
+
+
+
+
+skinparam sequence {
+    
+    ArrowColor White
+    ArrowFontColor White
+    ParticipantBorderColor White
+
+
+    ParticipantBorderColor White
+    ParticipantBorderThickness 2
+    ParticipantBackgroundColor transparent
+    ParticipantFontColor White
+
+    LifeLineBorderColor White
+    LifeLineThickness 4
+    LifeLineBackgroundColor Transparent
+    
+
+}
+
+!option handwritten true
+
+hide footbox
+
+participant User
+
+User -> A: DoWork
+activate A
+
+A -> B: << createRequest >>
+activate B
+
+B -> C: DoWork
+activate C
+C --> B: WorkDone
+destroy C
+
+B --> A: RequestCreated
+deactivate B
+
+A -> User: Done
+deactivate A
+
+@enduml

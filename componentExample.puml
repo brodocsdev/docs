@@ -1,0 +1,114 @@
+@startuml
+
+skinparam backgroundColor transparent
+skinparam monochrome false
+skinparam shadowing false
+
+
+skinparam component {
+  
+  FontColor white
+
+  BorderColor white
+  BackgroundColor transparent
+  ArrowFontName Impact
+  ArrowColor White
+  ArrowFontColor White
+
+  BorderThickness 2
+}
+
+skinparam interface {
+  FontColor White
+}
+
+
+skinparam node {
+  FontColor white
+  BorderColor white
+  BackgroundColor transparent
+
+  BorderThickness 2
+}
+
+
+skinparam package {
+  FontColor white
+  BorderColor white
+  BackgroundColor transparent
+
+  BorderThickness 2
+}
+
+skinparam package {
+  FontColor white
+  BorderColor white
+  BackgroundColor transparent
+
+  BorderThickness 2
+}
+
+
+skinparam cloud {
+  FontColor white
+  BorderColor white
+  BackgroundColor transparent
+
+  BorderThickness 2
+}
+
+skinparam database {
+  FontColor white
+  BorderColor white
+  BackgroundColor transparent
+
+  BorderThickness 2
+}
+
+skinparam folder {
+  FontColor white
+  BorderColor white
+  BackgroundColor transparent
+
+  BorderThickness 2
+}
+
+skinparam frame {
+  FontColor white
+  BorderColor white
+  BackgroundColor transparent
+
+  BorderThickness 2
+}
+
+
+package "Some Group" {
+  HTTP - [First Component]
+  [Another Component]
+}
+
+node "Other Groups" {
+  FTP - [Second Component]
+  [First Component] --> FTP
+}
+
+cloud {
+  [Example 1]
+}
+
+
+database "MySql" {
+  folder "This is my folder" {
+    [Folder 3]
+  }
+  frame "Foo" {
+    [Frame 4]
+  }
+}
+
+
+[Another Component] --> [Example 1]
+[Example 1] --> [Folder 3]
+[Folder 3] --> [Frame 4]
+
+@enduml
