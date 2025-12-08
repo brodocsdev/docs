@@ -1,0 +1,18 @@
+{
+    "explorerSort.rules": [
+        {
+            "name": "Auto-generated for **",
+            "pathPattern": "**",
+            "priorities": [
+                {
+                    "condition": "name === 'README.md'",
+                    "priority": 100
+                },
+                {
+                    "condition": "name === 'Quick start.md'",
+                    "priority": 90
+                }
+            ]
+        }
+    ]
+}
