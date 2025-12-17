@@ -29,4 +29,4 @@ Features coming next:
 
 ## Feedback
 
-Please send feedback to tech team at **support@brodocs.io** or create feature request in [github intake backlog](https://github.com/brodocsdev/intake/issues) repository.
+Please send feedback to tech team at **support@brodocs.io** or create feature request in [github intake backlog](https://github.com/brodocsdev/backlog/issues) repository.
