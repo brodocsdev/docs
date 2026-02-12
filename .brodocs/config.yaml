@@ -1,0 +1,5 @@
+autoTopMenu: true
+ui:
+  tittle: Brodocs
+  colors: dark
+  centerMenu: true
