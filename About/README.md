@@ -11,11 +11,11 @@ This is MVP of site generator from markdown files to easily build internal or pu
 ## Features
 
 Features which are already implemented:
-- [Build and index sites from public and private repos](/Quick%20start.md)
-- [Rebuild after commit to repo](/Updates.md)
-- [Mulisites with top menu structure](/Multisites%20with%20top%20menu.md)
-- [Diagrams conversions from plantuml](/Diagrams%20conversion.md)
-- [Setting files order](/Ordering.md)
+- [Build and index sites from public and private repos](/About/Quick%20start.md)
+- [Rebuild after commit to repo](/About/Updates.md)
+- [Mulisites with top menu structure](/About/Multisites%20with%20top%20menu.md)
+- [Diagrams conversions from plantuml](/About/Diagrams%20conversion.md)
+- [Setting files order](/About/Ordering.md)
 
 
 
