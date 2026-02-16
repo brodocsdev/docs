@@ -1,4 +1,6 @@
 autoTopMenu: true
+analytics:
+  cloudflare: 010ec6524b3b429e816e1676b5f3c8d3
 ui:
   tittle: Brodocs
   colors: dark
