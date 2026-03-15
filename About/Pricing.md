@@ -3,14 +3,13 @@
 # Pricing
 
 
-| Feature                | Free Plan       | Premium Plan       |
+| Feature                | Free Plan       | Early access Plan  |
 |------------------------|-----------------|--------------------|
 | No brodocs logo        | ❌              | ✅                 |
 | Bring your domain      | ❌              | ✅                 |
 | Premium customer care  | ❌              | ✅                 |
-| Internal docs          | ❌              | ✅                 |
 | Storage limit          | 10MB            | 500MB              |
-| Price                  | Free            | $29.99/month       |
+| Price                  | Free            | $9.99/month        |
 
 
 
