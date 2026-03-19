@@ -1,16 +1,36 @@
 {
+    
+    "cSpell.enabled": true,
     "explorerSort.rules": [
         {
-            "name": "Auto-generated for **",
-            "pathPattern": "**",
+            "name": "Auto-generated for **/About/**",
+            "pathPattern": "**/About/**",
             "priorities": [
                 {
                     "condition": "name === 'README.md'",
                     "priority": 100
                 },
                 {
+                    "condition": "name === 'Pricing.md'",
+                    "priority": 100,
+                    "referenceFile": "README.md",
+                    "offset": -1
+                },
+                {
                     "condition": "name === 'Quick start.md'",
-                    "priority": 90
+                    "priority": 100,
+                    "referenceFile": "Pricing.md",
+                    "offset": -1
+                }
+            ]
+        },
+        {
+            "name": "Auto-generated for **/Updates/**",
+            "pathPattern": "**/Updates/**",
+            "priorities": [
+                {
+                    "condition": "name === '2026.md'",
+                    "priority": 100
                 }
             ]
         }
