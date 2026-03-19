@@ -1,9 +1,9 @@
-## Controlling order
+# Controlling order
 
 By default, items in each directory appear in natural sort order, with directories listed before files. There are two ways to change the order — pick the one that fits your workflow.
 
 
-### Option 1: Order files
+## Option 1: Order files
 
 Create a plain text file named `order` in any directory. List the items that should appear first, one per line:
 
@@ -18,7 +18,7 @@ This approach works well when docs are generated from code or with an LLM — it
 
 
 
-### Option 2: Explorer Sort VS Code plugin (visual, drag-and-drop)
+## Option 2: Explorer Sort VS Code plugin (visual, drag-and-drop)
 
 If you write docs in VS Code, the [Explorer Sort](https://github.com/Jinchanghyeok/explorer-sort) extension lets you reorder files and folders by dragging them in the file explorer panel — the same way you would reorder items in any list. What you see in VS Code is what you get in the published site.
 
