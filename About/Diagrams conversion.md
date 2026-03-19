@@ -6,8 +6,8 @@
 
 To have the diagram generated, commit the source file to the source repository and refer to it as image link:
 ```plain
-![](/testSequence.png)
-![](/testDrawio.png)
+![](./testSequence.png)
+![](./testDrawio.png)
 ```
 
 Supported are [Plant UMLs](https://crashedmind.github.io/PlantUMLHitchhikersGuide/) (also c4) and draw.io. You may prefer plant uml over draw.io since they human readable so you can get feedback in pull request. Even more readable when you keep the formatting in separate file and !include it. The same goes for AI agents, they can digest plant umls quite well.
@@ -20,32 +20,32 @@ Draw.io support is experimental, it takes much more resources to generate than g
 ## Example sequence
 [Source](https://github.com/brodocsdev/docs/blob/main/testSequence.puml)
 
-![](/testSequence.png)
+![](/About/testSequence.png)
 
 
 ```plain
-![](/testSequence.png)
+![](/About/testSequence.png)
 ```
 
 
 ## Example component
 [Source](https://github.com/brodocsdev/docs/blob/main/componentExample.puml)
 
-![](/componentExample.png)
+![](/About/componentExample.png)
 
 
 ```plain
-![](/tcomponentExample.png)
+![](/About/componentExample.png)
 ```
 
 
 ## Example c4
 [Source](https://github.com/brodocsdev/docs/blob/main/c4.puml)
 
-![](/c4.png)
+![](/About/c4.png)
 
 
 ```plain
-![](/c4.png)
+![](/About/c4.png)
 ```
 
