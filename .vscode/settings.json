@@ -7,13 +7,13 @@
             "pathPattern": "**/About/**",
             "priorities": [
                 {
-                    "condition": "name === 'README.md'",
+                    "condition": "name === 'Welcome.md'",
                     "priority": 100
                 },
                 {
                     "condition": "name === 'Pricing.md'",
                     "priority": 100,
-                    "referenceFile": "README.md",
+                    "referenceFile": "Welcome.md",
                     "offset": -1
                 },
                 {

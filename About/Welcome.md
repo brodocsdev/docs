@@ -1,4 +1,4 @@
-# Brodocs
+# Welcome to Brodocs
 
 ## Tech docs for the agent economy — convert users and their AI agents 😎
 
